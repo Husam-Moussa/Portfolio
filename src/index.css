@@ -2,4 +2,5 @@
 *{
   font-family:'Bebas neue',sans-serif;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }

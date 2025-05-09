@@ -22,18 +22,18 @@ useEffect(() => {
   }, []);
   return (
     <div className="bg-white py-1 flex flex-col items-center gap-8">
-      <h2 className="text-gray-600 text-3xl sm:text-4xl md:text-5xl text-center px-4"data-aos="fade-right">
+      <h2 className="text-gray-600 text-3xl sm:text-4xl md:text-5xl text-center px-4 overflow-hidden"data-aos="fade-right">
         Certificates
       </h2>
 
       {/* Responsive Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 w-full max-w-6xl"data-aos="zoom-in">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 w-full max-w-6xl overflow-hidden"data-aos="zoom-in">
         {images.map((img, index) => (
           <img
             key={index}
             src={img}
             alt={`Certification ${index + 1}`}
-            className="w-full max-w-xs mx-auto rounded shadow-md cursor-pointer transition-transform duration-300 hover:scale-105 shadow-gray-600"
+            className="w-full max-w-xs mx-auto rounded shadow-md cursor-pointer transition-transform overflow-hidden duration-300 hover:scale-105 shadow-gray-600"
             onClick={() => setSelectedImg(img)}
           />
         ))}

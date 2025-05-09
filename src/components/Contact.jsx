@@ -15,12 +15,12 @@ const Contact = () => {
   return (
     <section className="py-16 bg-white">
       <div className="container mx-auto px-4 text-center">
-        <h2 className="text-3xl sm:text-4xl md:text-5xl text-gray-600 mb-4"data-aos="fade-right">Contact</h2>
+        <h2 className="text-3xl sm:text-4xl md:text-5xl text-gray-600 mb-4 overflow-hidden"data-aos="fade-right">Contact</h2>
         <p className="text-blue-500 text-base sm:text-lg mb-8"data-aos="fade-left">
           Feel free to reach out via email or connect with me on social media.
         </p>
 
-        <div className="flex justify-center flex-wrap gap-8 text-3xl sm:text-4xl"data-aos="fade-in">
+        <div className="flex justify-center flex-wrap gap-8 text-3xl sm:text-4xl">
           <a
             href="mailto:husammusa864@gmail.com"
             className="text-gray-600 hover:text-blue-500 transition-colors duration-300"
