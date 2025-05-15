@@ -8,7 +8,7 @@ const Projects = () => {
   const images = [
     { src: "Project/Project1.png", href: "https://Kayan-agency.vercel.app" },
     { src: "Project/Project2.png", href: "https://bawabcell.vercel.app" },
-    { src: "Project/Project1.png", href: "https://example.com/project3" },
+    { src: "IMG_1288.jpeg", href:"https://mcnutrition.vercel.app"},
     { src: "Project/Project1.png", href: "https://example.com/project4" },
     { src: "Project/Project1.png", href: "https://example.com/project5" },
     { src: "Project/Project1.png", href: "https://example.com/project6" },
