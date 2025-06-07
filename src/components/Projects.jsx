@@ -6,8 +6,8 @@ const Projects = () => {
   const [selectedImg, setSelectedImg] = useState(null);
 
   const images = [
-    { src: "Project/Project1.png", href: "https://mc-nutrition.vercel.app/" },
-    { src: "Project/Project2.png", href: "https://bawab-cell.vercel.app/" },
+    { src: "Project/Project1.png", href: "https://mc-nutrition.vercel.app" },
+    { src: "Project/Project2.png", href: "https://bawabcell.vercel.app" },
   ];
 useEffect(() => {
     AOS.init({
