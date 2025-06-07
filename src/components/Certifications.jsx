@@ -6,10 +6,12 @@ const Certifications = () => {
   const [selectedImg, setSelectedImg] = useState(null);
 
   const images = [
-    "Certification/Certification4.png",
-    "Certification/Certificaton2.png",
+    "Certification/Certification1.png",
+    "Certification/Certification2.png",
     "Certification/Certification3.png",
-    "Certification/Certification1.jpg",
+    "Certification/Certification4.png",
+    "Certification/Certification5.png",
+    "Certification/Certification6.jpg",
   ];
 useEffect(() => {
     AOS.init({

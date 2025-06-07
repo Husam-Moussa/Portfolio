@@ -40,7 +40,9 @@ const Home = () => {
 
           <div className='w-full flex justify-center mt-6'>
             <button className='bg-blue-500 text-white px-6 py-4 rounded-2xl text-lg transition duration-300 cursor-pointer hover:bg-gray-600'>
-              Download CV
+             <a href="Husam Moussa Resume.pdf" download>
+               Download CV
+              </a>
             </button>
           </div>
         </div>
