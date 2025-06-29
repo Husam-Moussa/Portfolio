@@ -11,7 +11,10 @@ const Certifications = () => {
     "Certification/Certification3.png",
     "Certification/Certification4.png",
     "Certification/Certification5.png",
-    "Certification/Certification6.jpg"
+    "Certification/Certification6.jpg",
+    "Certification/Certification7.png",
+    "Certification/Certification8.png",
+    "Certification/Certification9.png"
   ];
 useEffect(() => {
     AOS.init({
