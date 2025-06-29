@@ -8,6 +8,9 @@ const Projects = () => {
   const images = [
     { src: "Project/Project1.png", href: "https://mc-nutrition.vercel.app" },
     { src: "Project/Project2.png", href: "https://bawab-cell.vercel.app" },
+    { src: "Project/Project3.png", href: "https://ai-web-builder-psi.vercel.app" },
+    { src: "Project/Project4.png", href: "https://ai-resume-tan-beta.vercel.app" },
+    { src: "Project/Project5.png", href: "https://ai-therapist-dusky.vercel.app" },
   ];
 useEffect(() => {
     AOS.init({
